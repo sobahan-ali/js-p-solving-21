@@ -1,3 +1,5 @@
+//১. একটা কোড লিখো। যেটা দিয়ে কোন একটা array এর মধ্যে সবচেয়ে ছোট সংখ্যা বের করে দিতে পারবে। 
+
 function lowestNo (numbers) {
     let lowest = numbers[0]; 
     for (let i = 0; i < numbers.length; i++){
