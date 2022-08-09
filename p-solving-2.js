@@ -3,12 +3,12 @@
 let num1 = 100 ;  num2 = 50; num3 = 90;
 
 // console.log(num1, num2, num3)
-if (num1 > num2 && num1 > num3 ){
-    console.log( num1, 'is big number');
+if (num1 < num2 && num1 < num3 ){
+    console.log( num1, 'is smallest number');
 }
-else if (num2 > num1 && num2 > num3){
-    console.log(num2, 'is big number')
+else if (num2 < num1 && num2 < num3){
+    console.log(num2, 'is smallest number')
 }
 else {
-    console.log(num3, 'is big number');
+    console.log(num3, 'is smallest number');
 }
